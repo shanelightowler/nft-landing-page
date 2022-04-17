@@ -1,2 +1,2 @@
-# Redirects from what the browser requests to what we serve
-/home            https://www.frankenbeernft.com
+# http and https need separate rules if you don’t force_ssl!
+https://gifted-goldberg-4f05fc.netlify.app/* https://www.frankenbeernft.com/:splat 301!
